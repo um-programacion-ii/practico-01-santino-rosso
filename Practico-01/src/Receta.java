@@ -9,6 +9,14 @@ public class Receta {
         this.ingredientes = ingredientes;
     }
 
+    public Ingrediente[] getIngredientes(){
+        return ingredientes;
+    }
+
+    public String getPreparacion(){
+        return preparacion;
+    }
+
     public void mostrarReceta(){
         System.out.println("Los ingredientes son:");
         for (Ingrediente ingrediente: ingredientes){
